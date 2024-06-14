@@ -16,8 +16,8 @@ function TravelPlanList( {travelPlans, setTerm, term,}) {
       <div className="cards">
       <li className="card">
       <h4>Name: {`${name}`}</h4>
-      <h4>Price: {`${location}`}</h4>
-      <iframe src={iframe} width="600" height="450" style={{border:0}}><iframe/>
+      <h4>Location: {`${location}`}</h4>
+      <iframe src={iframe} width="600" height="450" style={{border:0}}/>Map of Location{`(iframe)`}:
       </li>
       </div>  
     </main>
